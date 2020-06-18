@@ -1,6 +1,6 @@
 # Front-end Week 2020
 
-> https://frontendweek.com.br
+> http://frontendweek.com.br
 
 ## Como adicionar seu evento?
 
