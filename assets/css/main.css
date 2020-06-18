@@ -851,7 +851,7 @@ ul {
   padding: 0 0.7rem;
 }
 .event-links {
-  padding-top: 2.2rem;
+  padding-top: 1.6rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -861,6 +861,7 @@ ul {
   padding-right: 1rem;
 }
 .event-link {
+  display: inline-block;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2rem;
@@ -1017,7 +1018,7 @@ ul {
   width: 3rem;
   height: 3rem;
   background: transparent;
-  box-shadow: 829px 26px #ccc, 1889px 1253px #ccc, 1026px 879px #ccc, 1591px 1007px #ccc, 1443px 272px #ccc, 227px 1125px #ccc, 1676px 1156px #ccc, 839px 1824px #ccc, 1955px 1388px #ccc, 104px 224px #ccc, 1032px 1793px #ccc, 684px 300px #ccc, 504px 727px #ccc, 486px 637px #ccc, 1009px 220px #ccc, 54px 1174px #ccc, 813px 964px #ccc, 466px 1571px #ccc, 1622px 790px #ccc, 1073px 805px #ccc, 1172px 1131px #ccc, 781px 420px #ccc, 1341px 1475px #ccc, 1900px 1408px #ccc, 687px 394px #ccc, 1718px 249px #ccc, 367px 922px #ccc, 459px 555px #ccc, 1671px 850px #ccc, 358px 1376px #ccc, 191px 151px #ccc, 856px 867px #ccc, 1069px 122px #ccc, 1300px 544px #ccc, 531px 1141px #ccc, 1448px 892px #ccc, 1027px 1811px #ccc, 867px 2000px #ccc, 161px 789px #ccc, 1077px 84px #ccc, 1630px 1608px #ccc, 1041px 580px #ccc, 1938px 155px #ccc, 1931px 1375px #ccc, 122px 1216px #ccc, 26px 1199px #ccc, 1779px 1351px #ccc, 1414px 1203px #ccc, 212px 1123px #ccc, 1199px 391px #ccc, 1634px 1894px #ccc, 987px 1693px #ccc, 834px 1312px #ccc, 686px 1460px #ccc, 62px 1241px #ccc, 549px 424px #ccc, 1680px 297px #ccc, 1888px 1707px #ccc, 258px 1700px #ccc, 1516px 177px #ccc, 613px 469px #ccc, 1483px 868px #ccc, 1689px 36px #ccc, 569px 711px #ccc, 1999px 338px #ccc, 1495px 817px #ccc, 160px 1177px #ccc, 115px 660px #ccc, 194px 550px #ccc, 513px 1883px #ccc;
+  box-shadow: 1327px 1268px #ccc, 53px 843px #ccc, 1150px 1479px #ccc, 1562px 1752px #ccc, 892px 1245px #ccc, 1374px 1567px #ccc, 595px 1773px #ccc, 1784px 1209px #ccc, 363px 1431px #ccc, 283px 1412px #ccc, 1767px 1219px #ccc, 520px 1089px #ccc, 1477px 541px #ccc, 826px 35px #ccc, 902px 1373px #ccc, 1864px 46px #ccc, 132px 1046px #ccc, 1199px 356px #ccc, 128px 967px #ccc, 899px 301px #ccc, 869px 1331px #ccc, 133px 1280px #ccc, 322px 190px #ccc, 1100px 1719px #ccc, 497px 106px #ccc, 487px 1680px #ccc, 1631px 1499px #ccc, 305px 38px #ccc, 388px 422px #ccc, 533px 1703px #ccc, 1552px 1164px #ccc, 185px 118px #ccc, 1197px 1118px #ccc, 476px 1939px #ccc, 245px 303px #ccc, 1425px 638px #ccc, 1866px 1431px #ccc, 1569px 52px #ccc, 918px 1237px #ccc, 1929px 998px #ccc, 1075px 156px #ccc, 365px 1949px #ccc, 787px 1723px #ccc, 1662px 1614px #ccc, 450px 590px #ccc, 1142px 352px #ccc, 1713px 871px #ccc, 376px 538px #ccc, 1136px 1365px #ccc, 195px 1765px #ccc, 73px 1592px #ccc, 703px 267px #ccc, 752px 763px #ccc, 1984px 845px #ccc, 1794px 712px #ccc, 142px 1527px #ccc, 1918px 1310px #ccc, 968px 1033px #ccc, 505px 1123px #ccc, 1355px 1721px #ccc, 1421px 789px #ccc, 114px 410px #ccc, 742px 339px #ccc, 1148px 1799px #ccc, 809px 723px #ccc, 1986px 688px #ccc, 462px 138px #ccc, 1195px 1930px #ccc, 1197px 1210px #ccc, 800px 1408px #ccc;
 }
 .page-bg {
   position: fixed;
