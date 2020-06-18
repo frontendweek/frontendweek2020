@@ -1,4 +1,4 @@
-# FrontendWeek 2020 ![deploy](https://github.com/frontendweek/frontendweek2020/workflows/deploy/badge.svg)
+# FrontendWeek 2020 <a href="https://github.com/frontendweek/frontendweek2020/actions"><img alt="Travis (.org)" src="https://github.com/frontendweek/frontendweek2020/workflows/deploy/badge.svg"></a>
 
 > http://frontendweek.com.br
 
