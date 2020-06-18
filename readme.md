@@ -1,4 +1,4 @@
-# Front-end Week 2020
+# FrontendWeek 2020 ![deploy](https://github.com/frontendweek/frontendweek2020/workflows/deploy/badge.svg)
 
 > http://frontendweek.com.br
 
