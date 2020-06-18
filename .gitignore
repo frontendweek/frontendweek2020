@@ -1,0 +1,7 @@
+node_modules/
+build
+temp
+*.log
+.idea
+.DS_Store
+yarn.lock

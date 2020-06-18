@@ -1,0 +1,24 @@
+name: yaml-lint
+
+on: pull_request
+
+jobs:
+  build:
+    name: YAML Lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
+
+      - name: Run lint 🔧
+        run: |
+          npm install
+          npm run lint

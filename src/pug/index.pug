@@ -1,0 +1,132 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=yes')
+
+    title #{config.site.name} &bull; #{config.site.description}
+
+    meta(name='description' content=`${config.site.name} - ${config.site.description}`)
+    meta(name='keywords' content='eventos front-end no brasil, desenvolvedor front-end, desenvolvedora front-end, front-end no brasil, eventos de front-end no brasil, frontendweek, frontendweek 2020, frontendweek brasil, desenvolvimento, front-end, html, html5, css3, css, javascript, js')
+
+    link(rel='apple-touch-icon' sizes='180x180' href='assets/static/favicons/apple-touch-icon.png')
+    link(rel='icon' type='image/png' sizes='32x32' href='assets/static/favicons/favicon-32x32.png')
+    link(rel='icon' type='image/png' sizes='16x16' href='assets/static/favicons/favicon-16x16.png')
+    link(rel='manifest' href='assets/static/favicons/site.webmanifest')
+    link(rel='mask-icon' href='assets/static/favicons/safari-pinned-tab.svg' color='#000000')
+    link(rel='shortcut icon' href='assets/static/favicons/favicon.ico')
+    meta(name='msapplication-TileColor' content='#ffffff')
+    meta(name='msapplication-config' content='assets/static/favicons/browserconfig.xml')
+    meta(name='theme-color' content='#ffffff')
+
+    meta(property='og:locale' content='pt_BR')
+    meta(property='og:url' content=`${config.site.url}`)
+    meta(property='og:type' content='website')
+    meta(property='og:title' content=`${config.site.name}`)
+    meta(property='og:site_name' content=`${config.site.name}`)
+    meta(property='og:description' content=`${config.site.description}`)
+    meta(property='og:image' content=`${config.site.url}/assets/static/img/social.jpg`)
+
+    meta(name='twitter:card' content='summary_large_image')
+    meta(name='twitter:title' content=`${config.site.name}`)
+    meta(name='twitter:description' content=`${config.site.description}`)
+    meta(name='twitter:site' content='@frontendweek')
+    meta(name='twitter:image' content=`${config.site.url}/assets/static/img/social.jpg`)
+
+    link(rel='stylesheet' href='//fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700&display=swap')
+    link(rel='stylesheet' href='assets/css/main.css')
+  body
+    header.header
+      .header-line
+        p.header-line-text 7ª Edição
+      .header-wrapper
+        .header-astronaut
+        .header-content
+          a.header-logo Front-end Week 2020
+          .header-action
+            p.header-date De 17 a 19 de Julho
+            a.button(href='#programacao') Programação
+
+    section.events#programacao
+      .moon
+      .events-wrapper
+        h1.events-title Programação
+
+        - var valid_dates = ['18/07']
+
+        each date in valid_dates
+          ul.events-list
+            li.events-day
+              .events-day__date
+                h2.events-day__date-title= date
+              .events-day__list
+                ul.events-internal
+                  each event in events
+                    if event.date == date
+                      li.event-item
+                        h3.event-title= event.name
+                        p.event-date
+                          span.event-date__date= event.date
+                          span.event-date__time= event.time
+                        if event.links
+                          ul.event-links
+                            each link in event.links
+                              li.event-links-item
+                                a.event-link(href=link[1])= link[0]
+        .events-add
+          p.events-add-disclaimer Você organiza algum evento de front-end e deseja adicionar nesta lista?
+          a.button(href='https://github.com/frontendweek/2020.frontendweek.com.br/blob/master/_events.yml') Adicionar evento
+
+    footer.footer
+      .footer-wrapper
+        .footer-column
+          h4.footer-title Apoio
+          .footer-logos
+            a.footer-logo-link(href='https://lukin.co/?utm_source=frontendweek' title='Acessar site da Lukin Co.')
+              img(src='./assets/static/img/lukin-logo.svg' alt='Logo da Lukin Co.')
+            a.footer-logo-link(href='https://frontendbr.com.br/?utm_source=frontendweek' title='Acessar site do FrontendBR')
+              img(src='./assets/static/img/frontendbr-logo.png' alt='Logo do FrontendBR')
+        .footer-column
+          h4.footer-title Entre em contato
+          .footer-line
+            a.footer-link(href='mailto:frontendweekbr@gmail.com') frontendweekbr@gmail.com
+          .footer-line
+            a.footer-link(href='https://twitter.com/frontendweek') @frontendweek
+        .footer-column
+          h4.footer-title Legal
+          .footer-line
+            a#show-coc.footer-link(href='#coc') Código de conduta
+
+    .page-bg
+      .stars
+        #stars1
+        #stars2
+        #stars3
+        #stars4
+      .comets
+        .comet.comet-01
+        .comet.comet-02
+        .comet.comet-03
+        .comet.comet-04
+
+    #coc.coc
+      span#close-coc.coc-close &times;
+      .coc-content
+        .coc-content-inner
+          h1 Código de Conduta
+          p Participantes, palestrantes, representantes de empresas e pessoas voluntárias da conferência precisam concordar com este código de conduta. A equipe organizadora vai reforçar que este código seja seguido durante todo o evento. Esperamos a cooperação de todas as partes para ajudar a garantir um ambiente seguro para qualquer pessoa.
+
+          h2 Versão rápida
+          p Nossa conferência é dedicada a fornecer uma experiência livre de assédio para todas as pessoas, independentemente do sexo, identidade de gênero e expressão, idade, orientação sexual, deficiência, aparência física, tamanho corporal, cor de pele, etnia, religião (ou falta dela) ou escolhas de tecnologias. Não toleramos o assédio a participantes da conferência, sob qualquer forma. Linguagem e imagens sexuais não são apropriadas em nenhum local, incluindo palestras, workshops, festas, Twitter e outras mídias on-line. Violações destas regras poderão causar expulsão da conferência, sem restituição, a critério da equipe organizadora.
+
+          h2 Versão mais longa
+          p Constituem assédio comentários verbais ofensivos relacionados a gênero, identidade de gênero e expressão, idade, orientação sexual, deficiência, aparência física, tamanho corporal, cor de pele, etnia, religião, escolhas de tecnologias, imagens sexuais em espaços públicos, intimidação deliberada, perseguição, stalking, fotografias ou filmagens constrangedoras, interrupção contínua das apresentações ou outros eventos, contato físico inadequado e atenção sexual indesejada.
+          p Participantes que receberem uma solicitação para interromper qualquer comportamento de assédio devem fazer isso imediatamente.
+          p As políticas antiassédio também se aplicam a representantes de empresas patrocinadoras. Em particular, não devem usar imagens, atividades ou outro material de cunho sexual. As equipes de estandes e tendas (incluindo pessoas voluntárias) não devem utilizar roupas, uniformes ou trajes sexualizados ou criar um ambiente sexualizado de quaisquer formas.
+          p Se alguém se envolver em comportamento de assédio, a equipe organizadora poderá tomar todas as medidas que considerar adequadas, incluindo avisar a pessoa ofensora ou expulsá-la da conferência sem nenhum reembolso.
+          p Caso sofra assédio, perceba que alguém esteja sofrendo assédio ou tenha alguma dúvida, entre em contato com alguém da organização imediatamente. As pessoas da equipe da conferência podem ser identificadas, pois estarão vestindo camisetas marcadas.
+          p A organização estará disposta a auxiliar participantes a entrar em contato com a segurança do hotel ou local, bem como aplicar a legislação pertinente, fornecer escoltas ou ajudar pessoas que sofrerem assédio para que se sintam seguras durante a conferência. Valorizamos sua participação.
+          p Esperamos que todas as pessoas participantes sigam estas regras em salas de apresentação e workshops da conferência, além de eventos sociais relacionados.
+
+    script(src='assets/static/js/main.js')

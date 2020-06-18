@@ -1,0 +1,35 @@
+bg($file)
+  background-image url($path-img + $file)
+  background-repeat no-repeat
+
+center()
+  display flex
+  align-items center
+  justify-content center
+
+wrapper()
+  max-width $wrapper-size
+  padding 0 3em
+  margin 0 auto
+
+  +below('desktop-small')
+    max-width 100%
+
+text-gradient()
+  display inline-block
+  background-clip text
+  -webkit-background-clip text
+  background-size cover
+  text-fill-color transparent
+  -webkit-text-fill-color transparent
+
+random(min, max)
+  return floor(math(0, 'random')*(max - min + 1) + min)
+
+multiple-box-shadow($n, $color)
+  $value = '%spx %spx #ccc' % (random(1, 2000) random(1, 2000))
+
+  for $i in 2..$n
+    $value += ', %spx %spx #ccc' % (random(1, 2000) random(1, 2000))
+
+  return unquote($value)

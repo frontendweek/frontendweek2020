@@ -1,0 +1,49 @@
+box-sizing-reset()
+normalize()
+
+::-moz-selection
+  background $color-primary
+  color #fff
+
+::selection
+  background $color-primary
+  color #fff
+
+html,
+body
+  height 100%
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+  -webkit-text-size-adjust 100%
+  cursor default
+
+html
+  font-size 10px
+  scroll-behavior smooth
+
+  +above('desktop-big')
+    font-size .65vw
+
+body
+  font-size 1rem
+  font-family $font-default
+  font-variant-ligatures none
+  color $color-default
+  background $color-default
+
+  &.lock
+    overflow hidden
+
+h1, h2, h3, h4, h5, h6
+  font-family $font-title
+  margin 0
+  padding 0
+
+p
+  margin 0
+  padding 0
+
+ul
+  margin 0
+  padding 0
+  list-style none

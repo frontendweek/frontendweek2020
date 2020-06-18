@@ -1,0 +1,80 @@
+.coc
+  opacity 0
+  position fixed
+  top 100%
+  left 0
+  right 0
+  background $color-default
+  color #fff
+  -webkit-overflow-scrolling touch
+
+  &-close
+    position absolute
+    right 30px
+    top 10px
+    font-size 6rem
+    color #fff
+    cursor pointer
+    z-index 10
+
+    +below($phone)
+      right 20px
+
+  &-content
+    position relative
+    margin 0 auto
+    max-height 100vh
+    overflow auto
+    height 100%
+    -webkit-overflow-scrolling touch
+    padding-left calc('50% - 350px')
+    padding-right @padding-left
+    padding-top 4em
+    padding-bottom 4em
+
+    &-inner
+      padding 0 2em
+
+    h1
+      margin 0
+      padding 0 0 .1em 0
+      font-family $font-title
+      font-size 3.5rem
+
+      +below($phone)
+        font-size 3rem
+        line-height 1.4
+
+    h2
+      margin 0
+      padding 2em 0 0
+      font-family $font-title
+      font-size 2.2rem
+
+      +below($phone)
+        font-size 2rem
+        line-height 1.4
+
+    p
+      margin 0
+      padding 1em 0
+      line-height 1.6
+      font-size 1.5rem
+
+  &.show
+    opacity 1
+    animation slide-up .6s cubic-bezier(0, 1, 0.5, 1) forwards
+    z-index 100
+
+    &.hide
+      animation slide-down .6s cubic-bezier(0, 1, 0.5, 1) forwards
+
+@keyframes slide-up
+  to
+    top 0
+
+@keyframes slide-down
+  from
+    top 0
+  to
+    top 100%
