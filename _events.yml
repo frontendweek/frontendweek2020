@@ -1,9 +1,16 @@
-- date: "13/07"
+- 
+  date: "13/07"
   time: "19h"
   name: "Campinas frontend"
   links:
     - ["Website", "https://www.meetup.com/pt-BR/campinas-frontend/"]
     - ["Twitter", "https://twitter.com/cpsfrontend"]
+- 
+  date: '15/07'
+  time: '14h'
+  name: 'React Floripa'
+  links: 
+    - ['Website', 'https://www.meetup.com/ReactJS-Floripa/events/270314760/']
 -
   date: '18/07'
   time: '08h'
