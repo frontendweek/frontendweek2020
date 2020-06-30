@@ -1,4 +1,11 @@
 - 
+  date: "13/07"
+  time: "19h"
+  name: "Campinas frontend"
+  links:
+    - ["Website", "https://www.meetup.com/pt-BR/campinas-frontend/"]
+    - ["Twitter", "https://twitter.com/cpsfrontend"]
+- 
   date: '15/07'
   time: '14h'
   name: 'React Floripa'
