@@ -6,14 +6,37 @@
     - ["Website", "https://www.meetup.com/pt-BR/campinas-frontend/"]
     - ["Twitter", "https://twitter.com/cpsfrontend"]
 - 
+  date: '14/07'
+  time: '19h'
+  name: "Meetup CSS SP"
+  links: 
+    - ["Twitter", 'https://twitter.com/meetupcss/']
+- 
   date: '15/07'
   time: '14h'
   name: 'React Floripa'
   links: 
     - ['Website', 'https://www.meetup.com/ReactJS-Floripa/events/270314760/']
+- 
+  date: '15/07'
+  time: '19h'
+  name: 'Meetup HTML SP'
+  links: 
+    - ['Website', 'http://bit.ly/confyhtmlsp']
+    - ['Twitter', 'https://twitter.com/meetuphtmlsp']
+- 
+  date: '15/07'
+  time: '19h'
+  name: 'Meetup ReasonBR'
+  links: 
+    - ['Website', 'https://confy.app/event/1o-meetup-reasonbr-27e5']
+    - ['Twitter', 'https://twitter.com/reasonmlbrasil']
 -
   date: '18/07'
   time: '08h'
   name: 'Front in Sampa'
   links:
     - ['Website', 'http://frontinsampa.com.br']
+    - ['Twitter', 'https://twitter.com/frontinsp']
+    - ['Instagram', 'https://www.instagram.com/frontinsampa']
+    - ['Youtube', 'https://www.youtube.com/channel/UCwoGd_KU0OxiVT5r-rPrzWA']
