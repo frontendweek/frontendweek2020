@@ -41,6 +41,14 @@
     - ['Instagram', 'https://www.instagram.com/Angular_SP']
     - ['Youtube', 'https://www.youtube.com/channel/UCK4x3skK4rTpLqJf6XkTfqg']
 -
+  date: '17/07'
+  time: '18h'
+  name: 'FrontendBR Space'
+  links:
+    - ['Link da Live', 'https://www.youtube.com/watch?v=J12rVUd8TP8']
+    - ['Website', 'https://frontendbr.com.br/?utm_source=frontendweek']
+    - ['Twitter', 'https://twitter.com/frontendbr']
+-
   date: '18/07'
   time: '08h'
   name: 'Front in Sampa'
