@@ -24,6 +24,7 @@
   time: '19h'
   name: 'Meetup HTML SP'
   links:
+    - ['Link da Live', 'https://www.youtube.com/watch?v=Mj4kmvVXF_A']
     - ['Website', 'http://bit.ly/confyhtmlsp']
     - ['Twitter', 'https://twitter.com/meetuphtmlsp']
 -
