@@ -3,6 +3,7 @@
   time: "19h"
   name: "Campinas frontend"
   links:
+    - ["Link da Live", "https://www.twitch.tv/videos/678785123"]
     - ["Website", "https://www.meetup.com/pt-BR/campinas-frontend/"]
     - ["Twitter", "https://twitter.com/cpsfrontend"]
 -
@@ -10,6 +11,7 @@
   time: '19h'
   name: "Meetup CSS SP"
   links:
+    - ["Link da Live", 'https://www.youtube.com/watch?v=bnTiyZ78SFw']
     - ["Twitter", 'https://twitter.com/meetupcss/']
 -
   date: '15/07'
