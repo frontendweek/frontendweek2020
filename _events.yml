@@ -18,6 +18,7 @@
   time: '14h'
   name: 'React Floripa'
   links:
+    - ['Link da live', 'https://www.youtube.com/watch?v=ZntFz_DDakQ']
     - ['Website', 'https://www.meetup.com/ReactJS-Floripa/events/270314760/']
 -
   date: '15/07'
