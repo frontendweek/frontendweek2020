@@ -3,7 +3,7 @@
   time: "19h"
   name: "Campinas frontend"
   links:
-    - ["Link da Live", "https://www.twitch.tv/videos/678785123"]
+    - ["Link da Gravação", "https://www.youtube.com/watch?v=AwYrMgruE4A"]
     - ["Website", "https://www.meetup.com/pt-BR/campinas-frontend/"]
     - ["Twitter", "https://twitter.com/cpsfrontend"]
 -
@@ -11,21 +11,21 @@
   time: '19h'
   name: "Meetup CSS SP"
   links:
-    - ["Link da Live", 'https://www.youtube.com/watch?v=bnTiyZ78SFw']
+    - ["Link da Gravação", 'https://www.youtube.com/watch?v=bnTiyZ78SFw']
     - ["Twitter", 'https://twitter.com/meetupcss/']
 -
   date: '15/07'
   time: '14h'
   name: 'React Floripa'
   links:
-    - ['Link da live', 'https://www.youtube.com/watch?v=ZntFz_DDakQ']
+    - ['Link da Gravação', 'https://www.youtube.com/watch?v=ZntFz_DDakQ']
     - ['Website', 'https://www.meetup.com/ReactJS-Floripa/events/270314760/']
 -
   date: '15/07'
   time: '19h'
   name: 'Meetup HTML SP'
   links:
-    - ['Link da Live', 'https://www.youtube.com/watch?v=Mj4kmvVXF_A']
+    - ['Link da Gravação', 'https://www.youtube.com/watch?v=Mj4kmvVXF_A']
     - ['Website', 'http://bit.ly/confyhtmlsp']
     - ['Twitter', 'https://twitter.com/meetuphtmlsp']
 -
@@ -33,6 +33,7 @@
   time: '19h'
   name: 'Meetup ReasonBR'
   links:
+    - ['Link da Gravação', 'https://www.youtube.com/watch?v=pQRgnZ5Ep74']
     - ['Website', 'https://confy.app/event/1o-meetup-reasonbr-27e5']
     - ['Twitter', 'https://twitter.com/reasonmlbrasil']
 -
@@ -57,6 +58,7 @@
   time: '08h'
   name: 'Front in Sampa'
   links:
+    - ['Link da live', 'https://www.youtube.com/watch?v=0qtRQYS4V5A']
     - ['Website', 'http://frontinsampa.com.br']
     - ['Twitter', 'https://twitter.com/frontinsp']
     - ['Instagram', 'https://www.instagram.com/frontinsampa']
