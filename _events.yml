@@ -41,6 +41,7 @@
   time: '19h'
   name: 'Meetup AngularSP'
   links:
+    - ['Link da Gravação', 'https://www.youtube.com/watch?v=nouJnuSAowc']
     - ['Website', 'https://www.meetup.com/pt-BR/AngularJS-Sao-Paulo/events/271656539/']
     - ['Twitter', 'https://twitter.com/AngularSP']
     - ['Instagram', 'https://www.instagram.com/Angular_SP']
